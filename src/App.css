@@ -1,0 +1,107 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 12px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #f48fb1;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #fff0f5;
+  color: #333;
+}
+
+button {
+  background-color: #ff80ab;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #ff4081;
+}
+
+.reset {
+  background-color: #e57373;
+}
+
+.reset:hover {
+  background-color: #d32f2f;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fffafc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 15px;
+}
+
+th {
+  background-color: #ff80ab;
+  color: white;
+}
+
+.edit {
+  background-color: #64b5f6;
+}
+
+.edit:hover {
+  background-color: #1e88e5;
+}
+
+.delete {
+  background-color: #e57373;
+}
+
+.delete:hover {
+  background-color: #c62828;
+}
